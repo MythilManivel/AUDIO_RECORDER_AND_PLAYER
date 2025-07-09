@@ -9,8 +9,6 @@ from scipy.fftpack import fft
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import time
-
-# Audio Recorder Class
 class AudioRecorder:
     def _init_(self, folder_path="recordings"):
         self.fs = 44100  # Sampling rate
