@@ -16,7 +16,7 @@ class AudioRecorder:
         self.paused = False
         self.frames = []
         self.stream = None
-        self.folder_path = 'E:/Projects/Python_Audio_Recorder/Recordings'  # Placeholder for storing recording
+        self.folder_path = 'E:/Projects/Python_Audio_Recorder/Recordings' 
         self.start_time = None
         self.paused_duration = 0  # To track the total pause duration
         self.pause_start_time = None
